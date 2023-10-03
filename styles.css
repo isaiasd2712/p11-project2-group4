@@ -21,5 +21,21 @@ body{
     font-size: 18px;
 }
 .img-boton{
+    display: flex;
     background: url(../p11-project2-group4/img/agregar-usuario.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 5%;
 }
+.img-boton2{
+    background: url(../p11-project2-group4/img/reiniciar.png);
+    display: flex;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 5%;
+    
+    
+}
+
