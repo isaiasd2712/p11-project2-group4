@@ -1,0 +1,25 @@
+body{
+    background-image: url(img/Artboard\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.texto{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.controles{
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    font-family: 'Calibri';
+    font-size: 18px;
+}
+.img-boton{
+    background: url(../p11-project2-group4/img/agregar-usuario.png);
+}
