@@ -1,11 +1,17 @@
-body{
-    background-image: url(img/Artboard\ 1.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body {
+  width: 1440;
+  height: 1020px;
+  font-family: Lato, sans-serif;
+  background:url(dynamicTable/img/Artboard\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.texto{
+h2{
     text-align: center;
     font-size: 35px;
     margin-bottom: 20px;
@@ -22,14 +28,14 @@ body{
 }
 .img-boton{
     display: flex;
-    background: url(../p11-project2-group4/img/agregar-usuario.png);
+    background: url(dynamicTable/img/agregar-usuario.png);
     background-size: 80%;
     background-repeat: no-repeat;
     border: none;
     padding: 5%;
 }
 .img-boton2{
-    background: url(../p11-project2-group4/img/reiniciar.png);
+    background: url(dynamicTable/img/reiniciar.png);
     display: flex;
     background-size: 80%;
     background-repeat: no-repeat;
