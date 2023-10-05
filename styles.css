@@ -1,4 +1,4 @@
-body{
+body{   
     background-image: url(img/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,9 +6,13 @@ body{
     background-attachment: fixed;
     width:  100vw;
     height: 100vh;
-    padding: 0;
 }
+.pageimage{
+width: 100vw;
+height: 100vh;
 
+
+}
 .texto{
     display: flex;
     justify-content: center;
@@ -32,8 +36,10 @@ body{
 .botones{
     display: flex;
     align-items: start;
-    width: 40vw;
-    height: 40vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 /*.img-boton1{
     display: flex;
@@ -57,7 +63,7 @@ width: 10vh;
 height: 10vh;
 border-radius: 50%;
 background-color: bisque;
-
+display: flex;
 
 
 }
