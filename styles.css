@@ -1,14 +1,19 @@
 body{
-    background-image: url(img/Artboard\ 1.png);
+    background-image: url(img/giphy.gif);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+    width:  100vw;
+    height: 100vh;
+    padding: 0;
 }
 
 .texto{
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    
 
 }
 
@@ -20,22 +25,59 @@ body{
     font-family: 'Calibri';
     font-size: 18px;
 }
-.img-boton{
+#nametext{
+    width: 4em;
+    height: 1vh;
+}
+.botones{
     display: flex;
-    background: url(../p11-project2-group4/img/agregar-usuario.png);
-    background-size: 80%;
+    align-items: start;
+    width: 40vw;
+    height: 40vh;
+}
+/*.img-boton1{
+    display: flex;
+    background: url(img/agregar-usuario.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     border: none;
     padding: 5%;
 }
 .img-boton2{
-    background: url(../p11-project2-group4/img/reiniciar.png);
+    background: url(img/reiniciar.png);
     display: flex;
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     border: none;
     padding: 5%;
-    
-    
+    height: 3vh;
+    width: 3vw;*/   
+#startbutton{
+width: 10vh;
+height: 10vh;
+border-radius: 50%;
+background-color: bisque;
+
+
+
 }
+.start{
+    background: url(img/muerte.png);
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-color: none;
+    border: none;
+    height: 80%;
+    width: 80%; 
+    margin-top: 3px;
+    margin-left: 6px;  
+}
+/*
+#nombres{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+/*namelist    
+}
+
 
