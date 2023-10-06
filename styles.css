@@ -1,5 +1,6 @@
+
 body{   
-    background-image: url(img/giphy.gif);
+    background-image: url(img/FINALFINAL.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,6 +18,7 @@ height: 100vh;
     display: flex;
     justify-content: center;
     font-size: 3em;
+    font-family: cantina,sans-serif;
     
 
 }
@@ -32,6 +34,19 @@ height: 100vh;
 #nametext{
     width: 4em;
     height: 1vh;
+}
+.inner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+#pantalla{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+
 }
 .botones{
     display: flex;
